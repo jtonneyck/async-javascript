@@ -24,11 +24,15 @@ Do all tasks depend upon each other? Which do and which do not?
 Some tasks you can execute simultaneously. I would be pretty dumb to stand in front of the dishwasher until it finished instead of moving on to some other chore in the meantime. Let's say you are that dumb an you do every chore 
 synchronously. That would look like this:
 
+
 <img src="./synchronous.png" style="width:100%"/>
+
 
 By default code in javascript is executed asynchronous. That looks like this:
 
+
 <img src="./async.png" style="width:100%"/>
+
 
 There's a function in javacript that can imitate asynchronous code. It's called setTimeout. Settimeout executes a function after a certain amount of miliseconds. We can use this to imitate functions that really take some time to complete. First we're going to use setTimout to simulate the chores with code fully asynchronous. A lot will go wrong! Afterwards, we'll do it the proper way with callbacks. Copy paste the following code and execute it:
 
