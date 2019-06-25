@@ -21,7 +21,7 @@ boring chores, like:
 
 Do all tasks depend upon each other? Which do and which do not? 
 
-Some tasks you can execute simultaneously. I would be pretty dumb to stand in front of the dishwasher until it finished instead of moving on to some other chore in the meantime. Let's say you are that dumb an you do every chore 
+Some tasks you can execute simultaneously. I would be pretty dumb to stand in front of the dishwasher until it finished instead of moving on to some other chore in the meantime. Let's say you are that dumb and you do every chore 
 synchronously. That would look like this:
 
 
