@@ -23,13 +23,9 @@ Do all tasks depend upon each other? Which do and which do not?
 
 Some tasks you can execute simultaneously. I would be pretty dumb to stand in front of the dishwasher until it finished instead of moving on to some other chore in the meantime. Let's say you are that dumb and you do every chore 
 synchronously. That would look like this:
-
-
 <img src="./synchronous.png" style="width:100%"/>
 
-
 By default code in javascript is executed asynchronous. That looks like this:
-
 
 <img src="./async.png" style="width:100%"/>
 
