@@ -33,8 +33,8 @@ By default code in javascript is executed asynchronous. That looks like this:
 
 <img src="./async.png" style="width:100%"/>
 
-
 There's a function in javacript that can imitate asynchronous code. It's called setTimeout. Settimeout executes a function after a certain amount of miliseconds. We can use this to imitate functions that really take some time to complete. First we're going to use setTimout to simulate the chores with code fully asynchronous. A lot will go wrong! Afterwards, we'll do it the proper way with callbacks. Copy paste the following code and execute it:
+
 
 ``` javascript
 var washingClothes = function() {
@@ -132,7 +132,6 @@ washingWindows()
 Finally, our laundry and dishes are handled like they are supposed to. :) Now this is happening: 
 
 <img src="./asyncCB.png" style="width:100%"/>
-
 Now it's up to you! It's the end of the year and you have a lot of tasks to do, like:
 
 * filing tax return (5000ms)
